@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>MOKEPON</title>
+        
+        <link rel="stylesheet" href="./contorno.css">
+        
+    </head>
+    <body>
+        
+
+        
+        <section id="seleccionar-mascota">
+            <h1 class="titulo"> <img src="https://i.imgur.com/2mqcGgN.png"></h1>
+         
+       
+        
+            <h2 class="subtitulo">Elige a tu mascota:</h2>
+          
+            <div class="tarjetas">
+
+                <input type="radio" name="mascota" id="squirle"/> 
+                <label class="tarjeta-de-mokepon" for="squirle">
+                    <p>squirle</p>       
+                   <img src="./R-removebg-preview.png" alt="squirle">
+                
+                </label> 
+               
+                
+                <input type="radio" name="mascota" id="Excadril"/> 
+                <label class="tarjeta-de-mokepon" for="Excadril"> 
+                    <p>Excadril</p>       
+                    <img src="Drilbur.png" alt="Excadril">
+
+                </label>
+                
+                <input type="radio" name="mascota" id="Charizard"/> 
+                <label class="tarjeta-de-mokepon" for="Charizard">
+                 <p>Charizard</p>       
+                 <img src="./kisspng-charizard-pokmon-xd-gale-of-darkness-pokmon-f-charizard-5b202a44cddc06.4799396415288346288432-removebg-preview.png" alt="Charizard">
+
+
+                </label> 
+               
+
+
+
+            </div> 
+            
+            
+
+         
+            <button id="boton-mascota">Seleccionar</button>
+        
+         
+        </section>
+        
+        <section id= "seleccionar-ataque">
+            <h1 class="titulo"> <img src="https://i.imgur.com/2mqcGgN.png"></h1>
+
+            <h2 class="subtitulo">Elige a tu ataque :</h2>
+
+          
+            <div class="tarjetas-ataques">
+                <button id="boton-fuego"class="boton-de-ataque">Fuego🔥 </button>
+                <button id="boton-agua"class="boton-de-ataque">Agua💧 </button>
+                <button id="boton-tierra"class="boton-de-ataque">Tierra🌿 </button>
+             
+            </div>
+            
+
+            
+                
+                <div id="mensajes">
+                    <p id="resultado">Disfrutalo</p> 
+
+                    <section id="reiniciar">                                           
+                        <button id="boton-reiniciar">Reiniciar</button>
+            
+                    </section>
+                 
+                </div>
+
+                <div class="ataques">
+                
+                    <div class="ataques-jugador">
+                        <p id="vidas-jugador" >❤️❤️❤️</p>
+                        <p id="mascota-jugador"></p>
+                        <div id="ataques-del-jugador"> </div>
+                    </div>
+               
+                    <div class="ataques-enemigo">
+                        <p id="vidas-enemigo" >❤️❤️❤️</p>
+                         <p id="mascota-enemigo"></p>
+                        <div id="ataques-del-enemigo"> </div>
+                       
+                 
+                    </div>
+                </div>
+
+
+            </div>
+
+                             
+        </section>
+        <script src="./js/mokepond.js"> </script>
+    </body>
+
+
+</html>
